@@ -1,0 +1,28 @@
+{
+  "name": "ffalor-resolve_sid",
+  "version": "0.1.0",
+  "author": "ffalor",
+  "summary": "Uses powershell to remove unresolvable SIDs from Windows",
+  "tags": ["windows", "groups", "sids", "unresolvable", "accounts"],
+  "license": "Apache-2.0",
+  "source": "https://github.com/ffalor/ffalor-resolve_sid",
+  "project_page": "https://github.com/ffalor/ffalor-resolve_sid",
+  "issues_url": "https://github.com/ffalor/ffalor-resolve_sid/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [{
+    "operatingsystem": "windows",
+    "operatingsystemrelease": [
+      "2019",
+      "10"
+    ]
+  }],
+  "requirements": [{
+    "name": "puppet",
+    "version_requirement": ">= 4.10.0 < 7.0.0"
+  }],
+  "pdk-version": "1.12.0",
+  "template-url": "pdk-default#1.12.0",
+  "template-ref": "1.12.0-0-g55d9ae2"
+}

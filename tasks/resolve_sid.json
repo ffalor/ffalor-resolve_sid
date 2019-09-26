@@ -1,0 +1,18 @@
+{
+  "puppet_task_version": 1,
+  "description": "Remove unresolvable SIDs from a local group.",
+  "input_method": "powershell",
+  "supports_noop": false,
+  "implementations": [{
+    "name": "resolve_sid.ps1",
+    "requirements": [
+      "powershell"
+    ]
+  }],
+  "parameters": {
+    "group": {
+      "description": "Group to check and remove unresolvable SIDs",
+      "type": "String"
+    }
+  }
+}
